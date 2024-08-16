@@ -1,0 +1,64 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin: 0;
+    background-image: url("https://img.goodfon.ru/wallpaper/big/f/88/fon-formuly-zakony-znaki.webp");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .math-quiz {
+    margin-top: 200px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .math-quiz p {
+    margin: 10px 0;
+    top: 30px;
+    font-size: 24px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+    width: 80px;
+    border-radius: 16px;
+  }
+  
+  button {
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    padding: 30px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 21px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(5, 5, 42);
+  }
